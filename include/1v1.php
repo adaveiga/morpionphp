@@ -6,7 +6,7 @@
 // Login   <daveig_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:14:54 2014 DA VEIGA Angelo
-// Last update Tue Dec 16 17:11:22 2014 CADET Anthony
+// Last update Tue Dec 16 17:24:30 2014 CADET Anthony
 //
 
 function	f_2()
@@ -84,7 +84,7 @@ function	f_2()
     }
   if ($win)
     {
-      echo "\nLes pions : $player gagne !\n\n";
+      echo "\nLes pions : $player gagne ! en $tours coups\n\n";
       echo "Voulez-vous rejouer o/n?\n";
       f_choix();
     }
@@ -96,4 +96,3 @@ function	f_2()
     }
 }
 ?>
-			 
