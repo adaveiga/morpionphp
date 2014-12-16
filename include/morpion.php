@@ -6,10 +6,10 @@
 // Login   <daveig_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:14:54 2014 DA VEIGA Angelo
-// Last update Tue Dec 16 14:53:33 2014 DA VEIGA Angelo
+// Last update Tue Dec 16 14:54:17 2014 DA VEIGA Angelo
 //
 
-function	f_1()
+function	f_2()
 {
   passthru("clear");
   $x = 0;
