@@ -1,15 +1,19 @@
 #!/usr/bin/env php
 <?php
-// random.php for random in /home/daveig_a/Rattrapages/DPHP/include
+// IA.php for IA in /home/daveig_a/Rattrapages/DPHP/include
 // 
 // Made by DA VEIGA Angelo
 // Login   <daveig_a@etna-alternance.net>
 // 
-// Started on  Tue Dec 16 16:44:56 2014 DA VEIGA Angelo
-// Last update Tue Dec 16 16:47:50 2014 DA VEIGA Angelo
+// Started on  Tue Dec 16 16:48:06 2014 DA VEIGA Angelo
+// Last update Tue Dec 16 16:51:38 2014 DA VEIGA Angelo
 //
-function        f_random()
+
+function        f_1()
 {
+  passthru("clear");
+  echo "Note: Le mode Joueur vs IA ne fonctionne pas: Ceci est le mode joueur vs joueur\n";
+  usleep (5000000);
   passthru("clear");
   $x = 0;
   $y = 0;
@@ -42,8 +46,6 @@ function        f_random()
           $x=(int)fgets(STDIN) -1;
           echo "Coordonnees y";
           $y=(int)fgets(STDIN) -1;
-	  $x = rand(1, 3);
-	  $y = rand(1, 3);
           passthru("clear");
         }
 
