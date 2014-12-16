@@ -6,14 +6,14 @@
 // Login   <cadet_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:19:47 2014 CADET Anthony
-// Last update Tue Dec 16 14:50:48 2014 DA VEIGA Angelo
+// Last update Tue Dec 16 15:11:59 2014 DA VEIGA Angelo
 //
 
 require('include/menu.php');
 require('include/exit.php');
 require('include/cut_params.php');
 require('include/choix.php');
-require('include/morpion.php');
+require('include/1v1.php');
 
 $enter = fopen('php://stdin', 'r');
 global $line;
