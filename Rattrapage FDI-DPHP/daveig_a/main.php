@@ -6,7 +6,7 @@
 // Login   <cadet_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:19:47 2014 CADET Anthony
-// Last update Tue Dec 16 17:08:34 2014 CADET Anthony
+// Last update Tue Dec 16 17:34:06 2014 CADET Anthony
 //
 
 require('include/menu.php');
@@ -16,6 +16,7 @@ require('include/choix.php');
 require('include/1v1.php');
 require('include/r_oui.php');
 require('include/r_non.php');
+require('include/regle.php');
 
 $enter = fopen('php://stdin', 'r');
 global $line;

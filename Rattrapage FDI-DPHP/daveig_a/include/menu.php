@@ -5,7 +5,7 @@
 // Login   <cadet_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:11:17 2014 CADET Anthony
-// Last update Tue Dec 16 17:24:39 2014 CADET Anthony
+// Last update Tue Dec 16 17:35:49 2014 CADET Anthony
 //
 
 function	f_menu()
@@ -14,6 +14,7 @@ function	f_menu()
   echo "*** Menu ***\n\n";
   echo "1 ~> Partie solo\n";
   echo "2 ~> 1 vs 1\n";
+  echo "3 ~> Comment jouer ?\n";
   echo "0 ~> Quitter\n\n";
   echo "Choix : ";
 }
