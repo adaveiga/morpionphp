@@ -6,7 +6,7 @@
 // Login   <daveig_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:14:54 2014 DA VEIGA Angelo
-// Last update Tue Dec 16 15:51:10 2014 CADET Anthony
+// Last update Tue Dec 16 15:58:48 2014 CADET Anthony
 //
 
 function	f_2()
@@ -35,9 +35,13 @@ function	f_2()
 	$player = 'X';
       do
 	{
-	  echo "   1  2  3\n";
+	  echo "   1   2   3\n";
 	  for ($i = 0; $i < 3; $i++)
-	    echo ($i + 1). " |". $tab[$i][0]. " |". $tab[$i][1]. " |". $tab[$i][2]. " |\n";
+	    {
+	      echo ($i + 1). "  ". $tab[$i][0]. " | ". $tab[$i][1]. " | ". $tab[$i][2]. "  \n";
+	      if ($i < 2)
+		echo "  ___________\n";
+	    }
 	  echo "Au tour de $player\n";
 	  echo "Coordonnees x";
 	  $x=(int)fgets(STDIN) -1;
