@@ -6,7 +6,7 @@
 // Login   <daveig_a@etna-alternance.net>
 // 
 // Started on  Tue Dec 16 13:14:54 2014 DA VEIGA Angelo
-// Last update Tue Dec 16 15:58:48 2014 CADET Anthony
+// Last update Tue Dec 16 16:18:27 2014 CADET Anthony
 //
 
 function	f_2()
@@ -75,14 +75,23 @@ function	f_2()
     }
   
   while (!$win && $tours != 9);
-  echo "   1  2  3\n";
+    echo "   1   2   3\n";
   for ($i = 0; $i < 3; $i++)
-    echo ($i+1). " |". $tab[$i][0]. " |". $tab[$i][1]. " |". $tab[$i][2]. " |\n";
+    {
+      echo ($i + 1). "  ". $tab[$i][0]. " | ". $tab[$i][1]. " | ". $tab[$i][2]. "  \n";
+      if ($i < 2)
+	echo "  ___________\n";
+    }
   if ($win)
-    echo "$player gagne !";
+    {
+      echo "\nLes pions : $player gagne !\n\n";
+      f_choix();
+    }
   else
-    echo "Personne ne gagne.";
+    {
+      echo "\nPersonne ne gagne.\n\n";
+      f_choix();
+    }
 }
-
 ?>
 			 
